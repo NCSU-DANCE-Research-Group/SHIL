@@ -1,0 +1,637 @@
+2022-01-06 02:21:28.038307: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3392225000 Hz
+2022-01-06 02:21:28.038618: I tensorflow/compiler/xla/service/service.cc:150] XLA service 0x560a93204700 executing computations on platform Host. Devices:
+2022-01-06 02:21:28.038646: I tensorflow/compiler/xla/service/service.cc:158]   StreamExecutor device (0): <undefined>, <undefined>
+There are 41 applications: ['CVE-2012-1823', 'CVE-2014-3120', 'CVE-2015-1427', 'CVE-2015-2208', 'CVE-2015-3306', 'CVE-2015-8103', 'CVE-2016-3088', 'CVE-2016-9920', 'CVE-2016-10033', 'CVE-2017-7494', 'CVE-2017-8291', 'CVE-2017-11610', 'CVE-2017-12149', 'CVE-2017-12615', 'CVE-2014-6271', 'CVE-2015-8562', 'CVE-2016-3714', 'CVE-2017-5638', 'CVE-2017-12794', 'CVE-2018-11776', 'CVE-2018-16509', 'CVE-2018-19475', 'CVE-2019-6116b', 'CVE-2019-5420', 'CVE-2020-17530', 'CVE-2021-44228', 'CVE-2014-0160', 'CVE-2015-5531', 'CVE-2017-7529', 'CVE-2017-8917', 'CVE-2018-15473', 'CVE-2020-1938', 'CVE-2021-28164', 'CVE-2021-28169', 'CVE-2021-34429', 'CVE-2021-41773', 'CVE-2014-0050', 'CVE-2016-6515', 'CVE-2015-5477', 'CVE-2016-7434', 'CVE-2017-12635']
+2022-01-06 02:21:26.479001
+CVE-2012-1823
+2397
+[602, 608, 1155]
+first anomalous sample: 607
+CVE-2014-3120
+2398
+[603, 679, 679]
+first anomalous sample: 605
+CVE-2015-1427
+2400
+[598, 615, 615]
+first anomalous sample: 601
+CVE-2015-2208
+2391
+[596, 616, 911]
+first anomalous sample: 596
+CVE-2015-3306
+2392
+[593, 608, 608]
+first anomalous sample: 604
+CVE-2015-8103
+2391
+[596, 848, 848]
+first anomalous sample: 599
+CVE-2016-3088
+2359
+[569, 597, 597]
+first anomalous sample: 575
+CVE-2016-9920
+2394
+[600, 1836, 1838]
+first anomalous sample: 612
+CVE-2016-10033
+2561
+[713, 1988, 1988]
+first anomalous sample: 715
+CVE-2017-7494
+2392
+[599, 626, 741]
+CVE-2017-8291
+2395
+[598, 620, 620]
+first anomalous sample: 601
+CVE-2017-11610
+2390
+[593, 594, 594]
+first anomalous sample: 594
+CVE-2017-12149
+2382
+[579, 600, 600]
+first anomalous sample: 589
+CVE-2017-12615
+2381
+[581, 611, 611]
+first anomalous sample: 599
+CVE-2014-6271
+2401
+[604, 621, 621]
+first anomalous sample: 608
+CVE-2015-8562
+2426
+[597, 601, 601]
+CVE-2016-3714
+2395
+[601, 649, 649]
+first anomalous sample: 616
+CVE-2017-5638
+2402
+[600, 639, 639]
+first anomalous sample: 631
+CVE-2017-12794
+2399
+[602, 612, 612]
+first anomalous sample: 604
+CVE-2018-11776
+2397
+[599, 601, 601]
+first anomalous sample: 600
+CVE-2018-16509
+2378
+[581, 599, 600]
+first anomalous sample: 593
+CVE-2018-19475
+2379
+[587, 608, 609]
+first anomalous sample: 600
+CVE-2019-6116b
+2393
+[594, 615, 616]
+first anomalous sample: 608
+CVE-2019-5420
+2397
+[597, 600, 600]
+first anomalous sample: 599
+CVE-2020-17530
+2386
+[599, 810, 810]
+first anomalous sample: 608
+CVE-2021-44228
+2414
+[598, 605, 605]
+first anomalous sample: 605
+CVE-2014-0160
+2166
+[622, 788, 788]
+first anomalous sample: 625
+CVE-2015-5531
+2395
+[594, 638, 638]
+first anomalous sample: 599
+CVE-2017-7529
+2520
+[588, 602, 602]
+CVE-2017-8917
+2398
+[598, 603, 603]
+CVE-2018-15473
+2397
+[604, 618, 619]
+first anomalous sample: 616
+CVE-2020-1938
+2411
+[700, 707, 707]
+first anomalous sample: 706
+CVE-2021-28164
+2398
+[605, 609, 609]
+first anomalous sample: 608
+CVE-2021-28169
+2406
+[588, 621, 621]
+first anomalous sample: 603
+CVE-2021-34429
+2383
+[594, 607, 607]
+first anomalous sample: 602
+CVE-2021-41773
+2472
+[636, 643, 643]
+CVE-2014-0050
+2379
+[580, 607, 973]
+CVE-2016-6515
+2417
+[604, 618, 618]
+first anomalous sample: 608
+CVE-2015-5477
+627
+[593, 594, 594]
+CVE-2016-7434
+606
+[602, 605, 605]
+first anomalous sample: 605
+CVE-2017-12635
+2375
+[596, 616, 616]
+first anomalous sample: 598
+2022-01-06 03:06:37.764240
+2022-01-06 03:06:37.764509
+CVE-2012-1823
+2379
+[606, 619, 784]
+CVE-2014-3120
+2388
+[598, 710, 710]
+first anomalous sample: 607
+CVE-2015-1427
+2395
+[597, 624, 624]
+first anomalous sample: 600
+CVE-2015-2208
+2382
+[597, 622, 901]
+first anomalous sample: 616
+CVE-2015-3306
+2395
+[601, 623, 623]
+first anomalous sample: 618
+CVE-2015-8103
+2392
+[592, 842, 842]
+first anomalous sample: 593
+CVE-2016-3088
+2395
+[655, 719, 719]
+first anomalous sample: 661
+CVE-2016-9920
+2390
+[593, 1832, 1834]
+first anomalous sample: 610
+CVE-2016-10033
+3013
+[1233, 2629, 2629]
+first anomalous sample: 2215
+CVE-2017-7494
+2376
+[596, 628, 795]
+CVE-2017-8291
+2383
+[584, 606, 606]
+first anomalous sample: 587
+CVE-2017-11610
+2396
+[604, 606, 606]
+first anomalous sample: 605
+CVE-2017-12149
+2387
+[586, 608, 608]
+first anomalous sample: 597
+CVE-2017-12615
+2366
+[581, 601, 771]
+first anomalous sample: 586
+CVE-2014-6271
+2427
+[604, 612, 612]
+first anomalous sample: 605
+CVE-2015-8562
+2432
+[605, 616, 616]
+CVE-2016-3714
+2376
+[596, 659, 659]
+first anomalous sample: 617
+CVE-2017-5638
+2378
+[578, 1160, 1160]
+first anomalous sample: 583
+CVE-2017-12794
+2399
+[604, 608, 608]
+first anomalous sample: 606
+CVE-2018-11776
+2399
+[599, 607, 607]
+first anomalous sample: 602
+CVE-2018-16509
+2379
+[590, 612, 613]
+first anomalous sample: 603
+CVE-2018-19475
+2393
+[593, 612, 616]
+first anomalous sample: 606
+CVE-2019-6116b
+2389
+[591, 625, 626]
+first anomalous sample: 607
+CVE-2019-5420
+2400
+[601, 611, 611]
+first anomalous sample: 606
+CVE-2020-17530
+2366
+[569, 610, 610]
+first anomalous sample: 577
+CVE-2021-44228
+2409
+[610, 614, 614]
+first anomalous sample: 614
+CVE-2014-0160
+2100
+[505, 678, 678]
+first anomalous sample: 544
+CVE-2015-5531
+2389
+[592, 618, 618]
+first anomalous sample: 597
+CVE-2017-7529
+2794
+[626, 641, 641]
+CVE-2017-8917
+2394
+[601, 607, 607]
+CVE-2018-15473
+2391
+[597, 608, 608]
+first anomalous sample: 606
+CVE-2020-1938
+2374
+[689, 707, 707]
+first anomalous sample: 698
+CVE-2021-28164
+2380
+[608, 620, 620]
+first anomalous sample: 608
+CVE-2021-28169
+2347
+[548, 588, 588]
+first anomalous sample: 575
+CVE-2021-34429
+2396
+[606, 643, 643]
+first anomalous sample: 628
+CVE-2021-41773
+2461
+[629, 639, 639]
+CVE-2014-0050
+2386
+[589, 612, 1004]
+CVE-2016-6515
+2396
+[597, 1202, 1202]
+first anomalous sample: 602
+CVE-2015-5477
+718
+[705, 707, 707]
+CVE-2016-7434
+613
+[606, 611, 611]
+first anomalous sample: 611
+CVE-2017-12635
+2386
+[598, 616, 616]
+first anomalous sample: 600
+2022-01-06 03:52:09.083693
+2022-01-06 03:52:09.083986
+CVE-2012-1823
+2355
+[590, 600, 926]
+CVE-2014-3120
+2373
+[597, 695, 695]
+first anomalous sample: 604
+CVE-2015-1427
+2392
+[596, 658, 658]
+first anomalous sample: 603
+CVE-2015-2208
+2384
+[597, 622, 778]
+first anomalous sample: 617
+CVE-2015-3306
+2381
+[599, 629, 630]
+first anomalous sample: 629
+CVE-2015-8103
+2385
+[587, 850, 850]
+first anomalous sample: 595
+CVE-2016-3088
+2362
+[697, 775, 775]
+first anomalous sample: 701
+CVE-2016-9920
+2365
+[593, 1846, 1848]
+first anomalous sample: 619
+CVE-2016-10033
+2398
+[606, 1860, 1860]
+first anomalous sample: 609
+CVE-2017-7494
+2377
+[600, 638, 715]
+CVE-2017-8291
+2396
+[599, 625, 625]
+first anomalous sample: 605
+CVE-2017-11610
+2382
+[589, 591, 591]
+first anomalous sample: 591
+CVE-2017-12149
+2386
+[587, 603, 1100]
+first anomalous sample: 592
+CVE-2017-12615
+2355
+[573, 623, 813]
+first anomalous sample: 614
+CVE-2014-6271
+2480
+[606, 622, 622]
+first anomalous sample: 607
+CVE-2015-8562
+2430
+[598, 602, 602]
+CVE-2016-3714
+2362
+[592, 692, 692]
+first anomalous sample: 633
+CVE-2017-5638
+2390
+[591, 1135, 1135]
+first anomalous sample: 880
+CVE-2017-12794
+2399
+[600, 605, 605]
+first anomalous sample: 602
+CVE-2018-11776
+2400
+[602, 612, 612]
+first anomalous sample: 605
+CVE-2018-16509
+2376
+[587, 615, 616]
+first anomalous sample: 608
+CVE-2018-19475
+2389
+[584, 616, 620]
+first anomalous sample: 600
+CVE-2019-6116b
+2376
+[590, 624, 626]
+first anomalous sample: 609
+CVE-2019-5420
+2399
+[600, 604, 604]
+first anomalous sample: 602
+CVE-2020-17530
+2342
+[555, 624, 624]
+first anomalous sample: 571
+CVE-2021-44228
+2420
+[618, 625, 625]
+first anomalous sample: 623
+CVE-2014-0160
+2152
+[512, 626, 626]
+first anomalous sample: 527
+CVE-2015-5531
+2388
+[600, 620, 620]
+first anomalous sample: 605
+CVE-2017-7529
+2441
+[602, 612, 612]
+first anomalous sample: 604
+CVE-2017-8917
+2364
+[591, 600, 600]
+CVE-2018-15473
+2397
+[605, 617, 617]
+first anomalous sample: 609
+CVE-2020-1938
+2396
+[685, 713, 713]
+first anomalous sample: 698
+CVE-2021-28164
+2392
+[601, 614, 614]
+CVE-2021-28169
+2385
+[584, 621, 621]
+first anomalous sample: 599
+CVE-2021-34429
+2391
+[600, 614, 614]
+CVE-2021-41773
+2473
+[638, 646, 646]
+CVE-2014-0050
+2385
+[579, 607, 2391]
+CVE-2016-6515
+2380
+[597, 1206, 1206]
+first anomalous sample: 628
+CVE-2015-5477
+628
+[603, 608, 608]
+first anomalous sample: 608
+CVE-2016-7434
+768
+[762, 764, 764]
+first anomalous sample: 762
+CVE-2017-12635
+2383
+[601, 623, 623]
+first anomalous sample: 603
+2022-01-06 04:37:12.548012
+2022-01-06 04:37:12.548302
+CVE-2012-1823
+2355
+[589, 609, 807]
+CVE-2014-3120
+2372
+[597, 752, 752]
+first anomalous sample: 601
+CVE-2015-1427
+2376
+[596, 654, 654]
+first anomalous sample: 603
+CVE-2015-2208
+2360
+[592, 629, 901]
+CVE-2015-3306
+2379
+[600, 636, 636]
+first anomalous sample: 633
+CVE-2015-8103
+2369
+[579, 862, 862]
+first anomalous sample: 589
+CVE-2016-3088
+2369
+[642, 705, 705]
+first anomalous sample: 648
+CVE-2016-9920
+2372
+[588, 1847, 1849]
+first anomalous sample: 614
+CVE-2016-10033
+2457
+[594, 1854, 1854]
+first anomalous sample: 609
+CVE-2017-7494
+2326
+[586, 649, 950]
+first anomalous sample: 616
+CVE-2017-8291
+2378
+[583, 608, 608]
+first anomalous sample: 587
+CVE-2017-11610
+2392
+[598, 601, 601]
+first anomalous sample: 600
+CVE-2017-12149
+2391
+[587, 697, 1240]
+first anomalous sample: 660
+CVE-2017-12615
+2351
+[567, 657, 1057]
+first anomalous sample: 599
+CVE-2014-6271
+2423
+[608, 614, 614]
+first anomalous sample: 610
+CVE-2015-8562
+2430
+[605, 609, 609]
+CVE-2016-3714
+2373
+[585, 713, 713]
+first anomalous sample: 630
+CVE-2017-5638
+2379
+[589, 732, 732]
+first anomalous sample: 598
+CVE-2017-12794
+2397
+[598, 609, 609]
+first anomalous sample: 601
+CVE-2018-11776
+2395
+[594, 609, 609]
+first anomalous sample: 599
+CVE-2018-16509
+2349
+[587, 613, 613]
+first anomalous sample: 603
+CVE-2018-19475
+2340
+[566, 595, 603]
+first anomalous sample: 584
+CVE-2019-6116b
+2375
+[597, 637, 639]
+first anomalous sample: 621
+CVE-2019-5420
+2395
+[593, 611, 611]
+first anomalous sample: 604
+CVE-2020-17530
+2366
+[550, 797, 797]
+first anomalous sample: 694
+CVE-2021-44228
+2387
+[595, 596, 605]
+CVE-2014-0160
+2074
+[492, 713, 713]
+first anomalous sample: 709
+CVE-2015-5531
+2390
+[599, 622, 622]
+first anomalous sample: 602
+CVE-2017-7529
+2436
+[606, 617, 617]
+first anomalous sample: 609
+CVE-2017-8917
+2352
+[595, 610, 610]
+first anomalous sample: 607
+CVE-2018-15473
+2397
+[602, 612, 613]
+first anomalous sample: 602
+CVE-2020-1938
+2375
+[694, 723, 723]
+first anomalous sample: 708
+CVE-2021-28164
+2389
+[597, 622, 622]
+first anomalous sample: 611
+CVE-2021-28169
+2400
+[611, 674, 674]
+first anomalous sample: 627
+CVE-2021-34429
+2387
+[599, 614, 614]
+first anomalous sample: 612
+CVE-2021-41773
+2441
+[609, 615, 615]
+CVE-2014-0050
+2373
+[590, 620, 1093]
+first anomalous sample: 592
+CVE-2016-6515
+2377
+[598, 612, 612]
+CVE-2015-5477
+609
+[604, 605, 605]
+CVE-2016-7434
+605
+[599, 602, 602]
+CVE-2017-12635
+2377
+[599, 619, 619]
+first anomalous sample: 603
+2022-01-06 05:21:56.563374
