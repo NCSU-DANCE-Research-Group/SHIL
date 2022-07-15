@@ -8,7 +8,7 @@ We evaluated 41 CVEs. The traces are in `shaped-transformed` folder.
 
 ## Environment
 
-This system was evaluated using Python 3.6.9, 3.7.0, and 3.7.3. The packages used and the corresponding versions are listed below:
+This system was evaluated using Python 3.6.9, 3.7.0, and 3.7.3. The packages used and the corresponding versions are listed below, which can be installed using `pip3 install -r requirements.txt`:
 
 ```
 joblib==1.1.0
