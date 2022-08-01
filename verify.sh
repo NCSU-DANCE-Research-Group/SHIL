@@ -51,8 +51,9 @@ for boundary in 1.2 2.0
 do
     python3 SHIL_analysis_experiment.py $boundary
     python3 format_res_csv.py
+    python3 get_final_stats.py
 
     dir=result/SHIL/boundary-$boundary
     mkdir -p $dir
-    mv detected.csv predicted.csv testing-res.csv testing-res-formatted.csv thresholds.csv recon_errors.csv $dir
+    mv detected.csv predicted.csv testing-res.csv testing-res-formatted.csv thresholds.csv recon_errors.csv final-stats.txt $dir
 done

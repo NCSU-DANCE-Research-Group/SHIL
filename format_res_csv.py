@@ -6,7 +6,6 @@ NUM_CVE = 41
 RAW_FILE_NAME = "testing-res.csv"
 EXPORT_FILE_NAME = "testing-res-formatted.csv"
 PATH = "./"
-print(os.path.join(PATH, RAW_FILE_NAME))
 
 data = []
 

@@ -1,0 +1,3 @@
+FPR: 1.99%
+Detection rate: 88.41%
+Lead time: 9.43s
