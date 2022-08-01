@@ -26,7 +26,7 @@ XlsxWriter==0.9.6
 ## One button script to reproduce the result
 
 The partial result of the unsupervised model and supervised models are saved in the `data` and `result` folder.
-Please keep all contents in the `data`, `result` and `shaped-transformed` folders to run the `verify.sh`. After it stops running, you can copy the whole content from `./result/SHIL/boundary-2.0/testing-res-formatted.csv` and paste into cell `L3` of the sheet `./result/result.xlsx` to compare with the paper result of SHIL using 200% boundary case. 
+Please keep all contents in the `data`, `result` and `shaped-transformed` folders to run the `verify.sh` with `sh` or `bash`. After it stops running, you can copy the whole content from `./result/SHIL/boundary-2.0/testing-res-formatted.csv` and paste into cell `L3` of the sheet `./result/result.xlsx` to compare with the paper result of SHIL using 200% boundary case. 
 
 ## Unsupervised Model
 
