@@ -3,7 +3,7 @@
 This contains the code and data for our paper "SHIL: Self-Supervised Hybrid Learning for Security Attack Detection in Containerized Applications" accepted by [ACSOS 2022](https://2022.acsos.org/). 
 
 ## Approach
-SHIL is a hybrid machine learning solution, which intelligently combines unsupervised and supervised learning method to achieve high attack detection accuracy without requiring any manual data labelling.
+SHIL is a self-supervised hybrid learning solution, which combines unsupervised and supervised learning methods to achieve high accuracy without requiring any manual data labelling. We have implemented a prototype of SHIL and conducted experiments over 41 real world security attacks in 28 commonly used server applications. Our experimental results show that SHIL can reduce false alarms by 39-91% compared to existing supervised or unsupervised machine learning schemes while achieving a higher or similar detection rate.
 
 ## Data
 
