@@ -31,7 +31,7 @@ XlsxWriter==0.9.6
 The partial result of the unsupervised model and supervised models are saved in the `data` and `result` folder.
 Please keep all contents in the `data`, `result` and `shaped-transformed` folders to run the `verify.sh` with `sh` or `bash`. After it stops running, you can do either of the following to compare with the paper result of SHIL using 200% boundary case: 
 * open the file `./result/SHIL/boundary-2.0/final-stats.txt` to view average FPR, detection rate, and lead time.
-* copy the whole content from `./result/SHIL/boundary-2.0/testing-res-formatted.csv` and paste into the cell `L3` (in red) of the sheet `./result/result.xlsx`  
+* copy the whole content from `./result/SHIL/boundary-2.0/testing-res-formatted.csv` and paste into the cell `J3` (in red) of the sheet `./result/result.xlsx`  
 
 ## Unsupervised Model
 
