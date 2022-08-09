@@ -1,9 +1,9 @@
 # SHIL: Self-Supervised Hybrid Learning for Security Attack Detection in Containerized Applications
 
-This contains the code and data for our paper "SHIL: Self-Supervised Hybrid Learning for Security Attack Detection in Containerized Applications" accepted by ACSOS 2022. 
+This contains the code and data for our paper "SHIL: Self-Supervised Hybrid Learning for Security Attack Detection in Containerized Applications" accepted by [ACSOS 2022](https://2022.acsos.org/). 
 
 ## Approach
-SHIL is a hybrid machine learning solution, which intelligently combines unsupervised and supervised learning method to achieve high attack detection accuracy without requiring any manual data labelling.
+SHIL is a self-supervised hybrid learning solution, which combines unsupervised and supervised learning methods to achieve high accuracy without requiring any manual data labelling. We have implemented a prototype of SHIL and conducted experiments over 41 real world security attacks in 28 commonly used server applications. Our experimental results show that SHIL can reduce false alarms by 39-91% compared to existing supervised or unsupervised machine learning schemes while achieving a higher or similar detection rate.
 
 ## Data
 
@@ -29,7 +29,9 @@ XlsxWriter==0.9.6
 ## One button script to reproduce the result
 
 The partial result of the unsupervised model and supervised models are saved in the `data` and `result` folder.
-Please keep all contents in the `data`, `result` and `shaped-transformed` folders to run the `verify.sh` with `sh` or `bash`. After it stops running, you can copy the whole content from `./result/SHIL/boundary-2.0/testing-res-formatted.csv` and paste into cell `L3` of the sheet `./result/result.xlsx` to compare with the paper result of SHIL using 200% boundary case. 
+Please keep all contents in the `data`, `result` and `shaped-transformed` folders to run the `verify.sh` with `sh` or `bash`. After it stops running, you can do either of the following to compare with the paper result of SHIL using 200% boundary case: 
+* open the file `./result/SHIL/boundary-2.0/final-stats.txt` to view average FPR, detection rate, and lead time.
+* copy the whole content from `./result/SHIL/boundary-2.0/testing-res-formatted.csv` and paste into the cell `J3` (in red) of the sheet `./result/result.xlsx`  
 
 ## Unsupervised Model
 
