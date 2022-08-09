@@ -71,11 +71,8 @@ def fp(labels, trig, success, complete):
     return fpr, leadtime, is_detected
 
 def prepare():
-    if USE_10MS:
-        timing_file = "./data/Experiment-10ms.xlsx"
-    else:
-        timing_file = "./data/Experiment-100ms.xlsx"
-    df = pd.read_excel(f"{timing_file}", sheets="experiment timing", header=None)
+    timing_file = "./data/Experiment-100ms.xlsx"
+    df = pd.read_excel(f"{timing_file}", header=None)
 
     app = ""
     app_time = dict()

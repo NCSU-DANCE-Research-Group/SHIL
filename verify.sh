@@ -16,7 +16,7 @@
 python3 outlier_detection_IsolationForest_nonoutlier_normal.py
 dir=./data/label_using_outlier
 mkdir -p $dir
-for container in {1..4}
+for container in 1 2 3 4
 do
     mv ./outlier_$container.csv ./nonoutlier_$container.csv $dir
 done
