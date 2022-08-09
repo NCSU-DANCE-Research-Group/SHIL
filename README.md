@@ -15,13 +15,12 @@ This system was evaluated using Python 3.6.9, 3.7.0, and 3.7.3. The packages use
 
 ```
 joblib==1.1.0
+tensorflow==1.13.1
 Keras==2.2.4
 numpy==1.19.5
 pandas==0.24.0
 scikit-learn==0.21.3
 scipy==1.1.0
-tensorboard==1.14.0
-tensorflow==1.13.1
 xlrd==1.2.0
 XlsxWriter==0.9.6
 ```
