@@ -22,7 +22,6 @@ pandas==0.24.0
 scikit-learn==0.21.3
 scipy==1.1.0
 xlrd==1.2.0
-XlsxWriter==0.9.6
 ```
 
 ## One button script to reproduce the result
